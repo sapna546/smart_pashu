@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 
-export async function GET() {
+export async function POST() {
   return NextResponse.json(
-    { message: "Profile API working" },
+    { message: "Login API working" },
     { status: 200 }
   );
 }
